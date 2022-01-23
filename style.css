@@ -1,0 +1,14 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-weight: bold;
+}
+.icon-list{
+    color: #848199;
+    font-size:15px ;
+}
+.btn-light{
+    padding: 5px 20px;
+    text-align: center;
+}
