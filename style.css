@@ -5,6 +5,9 @@ body{
 h1{
     font-weight: bold;
 }
+p{
+    font-size: 14px;
+}
 .icon-list{
     color: #848199;
     font-size:15px ;
