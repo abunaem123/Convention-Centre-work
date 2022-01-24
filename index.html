@@ -28,10 +28,10 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
             <div class="container ">
                 <a class="navbar-brand" href="#">
-                    <h4 class="fw-bolder"> Abacus Convention Center </h4>
+                    <h4 class="fw-bolder"> <span class="text-primary">AN</span> Convention Center </h4>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -41,13 +41,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#carouselExampleCaptions">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#service">Services</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#pricing">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#faq">FAQ</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#gallery">Gallery</a>
@@ -71,27 +74,35 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="images/banner.png" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-block d-md-block ">
-                            <h5>The perfect venue for your next event</h5>
+                        <div class="carousel-caption d-block d-md-block mb-4">
+                            <h1>The perfect venue for your next event</h1>
                             <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
                                 officia
                                 consequat duis enim velit </p>
-                            <button class="bg-white text-primary border-0 ps-4 pe-4 pt-2 pb-2 rounded">Buy
-                                Now</button>
+                            <a target="_blank" class="bg-white text-primary text-decoration-none py-2 px-4 rounded-2 "
+                                href="https://abunaem.com/">Book
+                                Now</a>
+
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="images/banner.png" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
+                        <img src="images/banner-2.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-block d-md-block mb-4">
                             <h5>Second slide label</h5>
                             <p>Some representative placeholder content for the second slide.</p>
+                            <a target="_blank" class="bg-white text-primary text-decoration-none py-2 px-4 rounded-2 "
+                                href="https://abunaem.com/">Book
+                                Now</a>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="images/banner.png" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
+                        <img src="images/banner-3.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-block d-md-block mb-4">
                             <h5>Third slide label</h5>
                             <p>Some representative placeholder content for the third slide.</p>
+                            <a target="_blank" class="bg-white text-primary text-decoration-none py-2 px-4 rounded-2 "
+                                href="https://abunaem.com/">Book
+                                Now</a>
                         </div>
                     </div>
                 </div>
@@ -120,22 +131,24 @@
         </div>
     </section>
     <!-- Header Section End  -->
-    <main class="container ">
+    <main class="container pt-4 ">
         <section>
             <!-- Service Section  -->
+            <h1 class="tittle text-center text-black" id="service">Our Services</h1>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col ">
                     <div class="card h-100  shadow-lg">
                         <img src="images/service1.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Full Service Planning</h5>
+                            <h5 class="card-title fw-bolder">Full Service Planning</h5>
                             <p class="card-text">The day you say "I do" is one of the most special moments in your life.
                                 We specialize in full service planning where we handle all the details from start to
                                 finish from location scouting, putting together a stellar team of creative partners,
                                 styling the look of your event to managing.</p>
                         </div>
                         <div class="card-footer bg-primary">
-                            <a target="_blank" class="text-white text-center text text-decoration-none" href="">Book
+                            <a target="_blank" class="text-white text-center text text-decoration-none"
+                                href="https://abunaem.com/">Book
                                 Now>></a>
                         </div>
                     </div>
@@ -144,14 +157,15 @@
                     <div class="card h-100 shadow-lg">
                         <img src="images/service2.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Floral & Event Design</h5>
+                            <h5 class="card-title fw-bolder">Floral & Event Design</h5>
                             <p class="card-text">Established and recognized as one of the top design firms in the
                                 country, our clients are all about the fine details. We offer full event decor services
                                 for all kinds of celebrations. We take pride in taking a simple idea and creating
                                 something magical with it.</p>
                         </div>
                         <div class="card-footer bg-primary">
-                            <a target="_blank" class="text-white text-center text text-decoration-none" href="">Book
+                            <a target="_blank" class="text-white text-center text text-decoration-none"
+                                href="https://abunaem.com/">Book
                                 Now>></a>
                         </div>
                     </div>
@@ -160,14 +174,15 @@
                     <div class="card h-100 shadow-lg">
                         <img src="images/service3.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Destination Planning</h5>
+                            <h5 class="card-title fw-bolder">Destination Planning</h5>
                             <p class="card-text">For discerning clients seeking a romantic destination wedding or
                                 celebration, we are ready to jet set to your dream destination offering full service
                                 destination planning. This experience offers a hands on approach orchestrating an
                                 unforgettable experience.</p>
                         </div>
                         <div class="card-footer bg-primary">
-                            <a target="_blank" class="text-white text-center text text-decoration-none" href="">Book
+                            <a target="_blank" class="text-white text-center text text-decoration-none"
+                                href="https://abunaem.com/">Book
                                 Now>></a>
                         </div>
                     </div>
@@ -176,11 +191,12 @@
         </section>
         <section class="container pt-5 pb-5">
             <!-- Pricing Section  -->
-            <h1 class="tittle text-center text-black">Our package</h1>
+            <h1 class="tittle text-center text-black" id="pricing">Our package</h1>
+
             <div class="row">
                 <div class="col-lg-3 col-12 col-md-6  pt-4 pe-4 ps-4 mt-4 ">
                     <h1 class="price text-info">$300</h1>
-                    <h2 class="price-tittle">Business fair</h2>
+                    <h3 class="price-tittle fw-bolder">Business fair</h3>
                     <p>For most businesses event like book fair, craft fair.</p>
                     <div>
                         <i class="fas fa-check"><span class="icon-list">&nbsp;limited space access</span> </i><br>
@@ -189,50 +205,57 @@
                         <i class="fas fa-check"><span class="icon-list">&nbsp;Decoration design</span> </i><br>
                         <i class="fas fa-check"><span class="icon-list">&nbsp;Per day bill</span> </i><br>
                     </div>
-                    <button class="btn btn-primary text-center mt-3">Choose plan</button>
+                    <a target="_blank" href=""><button class="btn btn-primary text-center mt-3" target="_blank"> Choose
+                            plan</button></a>
+
                 </div>
                 <div class="col-lg-3 col-12 col-md-6 pt-4 pe-4 ps-4 mt-4">
-                    <h1 class="price">$300</h1>
-                    <h2 class="price-tittle">Business fair</h2>
-                    <p>For most businesses event like book fair, craft fair.</p>
+                    <h1 class="price">$500</h1>
+                    <h3 class="price-tittle fw-bolder">wedding basic</h3>
+                    <p>For weddings with basic plan and limited item</p>
                     <div>
-                        <i class="fas fa-check"><span class="icon-list">&nbsp;Abu Naem</span> </i><br>
-                        <i class="fas fa-check"><span class="icon-list">&nbsp;Abu Naem</span> </i><br>
-                        <i class="fas fa-check"><span class="icon-list">&nbsp;Abu Naem</span> </i><br>
-                        <i class="fas fa-check"><span class="icon-list">&nbsp;Abu Naem</span> </i><br>
-                        <i class="fas fa-check"><span class="icon-list">&nbsp;Abu Naem</span> </i><br>
+                        <i class="fas fa-check"><span class="icon-list">&nbsp;Full space access</span> </i><br>
+                        <i class="fas fa-check"><span class="icon-list">&nbsp;Food arrangement</span> </i><br>
+                        <i class="fas fa-check"><span class="icon-list">&nbsp;mangement support</span> </i><br>
+                        <i class="fas fa-check"><span class="icon-list">&nbsp;Decoration design</span> </i><br>
+                        <i class="fas fa-check"><span class="icon-list">&nbsp;Billed as shift</span> </i><br>
                     </div>
-                    <button class="btn btn-primary text-center mt-3">Choose plan</button>
+                    <a target="_blank" href=""><button class="btn btn-primary text-center mt-3" target="_blank"> Choose
+                            plan</button></a>
                 </div>
                 <div
                     class="col-lg-3 col-12 col-md-6 bg-primary border rounded-3 pt-4 pb-4 ps-4 mt-4 shadow-lg p-3 position-relative">
                     <span
                         class="position-absolute top-0  start-50 translate-middle badge rounded-pill bg-danger px-3 py-2">
                         Popular</span>
-                    <h1 class=" text-white">$300</h1>
-                    <h2 class="text-white">Business fair</h2>
-                    <p class="text-white">For most businesses event like book fair, craft fair.</p>
+                    <h1 class=" text-white">$800</h1>
+                    <h3 class="text-white fw-bolder">Wedding plus</h3>
+                    <p class="text-white">For most weddings with premium plans</p>
                     <div>
-                        <i class="fas fa-check text-light"><span class="text-white">&nbsp;Abu Naem</span> </i><br>
-                        <i class="fas fa-check text-light"><span class="text-white">&nbsp;Abu Naem</span> </i><br>
-                        <i class="fas fa-check text-light"><span class="text-white">&nbsp;Abu Naem</span> </i><br>
-                        <i class="fas fa-check text-light"><span class="text-white">&nbsp;Abu Naem</span> </i><br>
-                        <i class="fas fa-check text-light"><span class="text-white">&nbsp;Abu Naem</span> </i><br>
+                        <i class="fas fa-check text-light"><span class="text-white">&nbsp;Full space access</span>
+                        </i><br>
+                        <i class="fas fa-check text-light"><span class="text-white">&nbsp;Dedicated team</span> </i><br>
+                        <i class="fas fa-check text-light"><span class="text-white">&nbsp;Buffet food</span> </i><br>
+                        <i class="fas fa-check text-light"><span class="text-white">&nbsp;premium Decoration</span>
+                        </i><br>
+                        <i class="fas fa-check text-light"><span class="text-white">&nbsp;pay as plan</span> </i><br>
                     </div>
-                    <button class="btn btn-light text-center mt-3">Choose plan</button>
+                    <a target="_blank" href=""><button class="btn bg-white text-center mt-3" target="_blank"> Choose
+                            plan</button></a>
                 </div>
                 <div class="col-lg-3 col-12 col-md-6  pt-4 pe-4 ps-4 mt-4">
-                    <h1 class="price">$300</h1>
-                    <h2 class="price-tittle">Business fair</h2>
-                    <p>For most businesses event like book fair, craft fair.</p>
+                    <h1 class="price">$1200</h1>
+                    <h3 class="price-tittle fw-bolder">Corporat event</h3>
+                    <p>For most corporate business events</p>
                     <div>
-                        <i class="fas fa-check"><span class="icon-list">&nbsp;Abu Naem</span> </i><br>
-                        <i class="fas fa-check"><span class="icon-list">&nbsp;Abu Naem</span> </i><br>
-                        <i class="fas fa-check"><span class="icon-list">&nbsp;Abu Naem</span> </i><br>
-                        <i class="fas fa-check"><span class="icon-list">&nbsp;Abu Naem</span> </i><br>
-                        <i class="fas fa-check"><span class="icon-list">&nbsp;Abu Naem</span> </i><br>
+                        <i class="fas fa-check"><span class="icon-list">&nbsp;Full space access</span> </i><br>
+                        <i class="fas fa-check"><span class="icon-list">&nbsp;Dedicated team</span> </i><br>
+                        <i class="fas fa-check"><span class="icon-list">&nbsp;Buffet food</span> </i><br>
+                        <i class="fas fa-check"><span class="icon-list">&nbsp;premium Decoration</span> </i><br>
+                        <i class="fas fa-check"><span class="icon-list">&nbsp;pay as plan</span> </i><br>
                     </div>
-                    <button class="btn btn-primary text-center mt-3">Choose plan</button>
+                    <a target="_blank" href=""><button class="btn btn-primary text-center mt-3" target="_blank"> Choose
+                            plan</button></a>
                 </div>
             </div>
 
@@ -241,7 +264,7 @@
         <!-- Accourding Section  -->
         <section>
             <div>
-                <h1 class="tittle text-center text-black ">Frequently Asked Questions</h1>
+                <h1 class="tittle text-center text-black " id="faq">Frequently Asked Questions</h1>
                 <div class="row py-4">
                     <div class="accordion col-lg-6 order-2 order-lg-1 " id="accordionExample">
                         <div class="accordion-item">
@@ -314,7 +337,7 @@
         </section>
         <!-- Gallery -->
         <section>
-            <!-- <h1 class="tittle text-center text-black ">Wedding Gallery </h1>
+            <h1 class="tittle text-center text-black " id="gallery">Wedding Gallery </h1>
             <div class="row py-4">
                 <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
                     <img src="images/galllery -2.jpg" class="w-100 shadow-1-strong rounded mb-4"
@@ -338,19 +361,19 @@
                     <img src="images/gallery 7.jpeg" class="w-100 shadow-1-strong rounded mb-4"
                         alt="Yosemite National Park" />
                 </div>
-            </div> -->
+            </div>
         </section>
         <!-- Gallery -->
 
 
     </main>
-    <footer class="bg-black ">
-        <!-- <div class="container">
-            <div class=" row">
-                <div class="col-lg-10 col-12 order-1 lg-order-2">
+    <footer class="bg-black  py-4">
+        <div class="container">
+            <div class=" row d-flex align-items-center">
+                <div class="col-lg-10 col-12 ">
                     <small class="text-white ">© 2020 bike. All rights reserved</small>
                 </div>
-                <div class="col-lg-2 col-12 order-2 lg-order-1">
+                <div class="col-lg-2 col-12 ">
                     <h5 class="text-white">Get the App</h5>
                     <div>
                         <img src="images/app.png" alt="">
@@ -359,19 +382,6 @@
                         <img src="images/googleplay.png" alt="">
                     </div>
                 </div>
-            </div>
-        </div> -->
-        <div class="container d-flex justify-content-between align-items-center py-4">
-            <div class="order-1 lg-col-2 ">
-                <small class="text-white">© 2020 bike. All rights reserved</small>
-            </div>
-            <div class="order-2 lg-col-1 ">
-                <h5 class="text-white">Get the App</h5>
-
-                <a target="_blank" href="https://play.google.com/store/apps"><img src="images/googleplay.png"
-                        alt="HTML tutorial"></a>
-                <a target="_blank" href="https://www.apple.com/app-store/"><img src="images/app.png"
-                        alt="HTML tutorial"></a>
             </div>
         </div>
     </footer>
